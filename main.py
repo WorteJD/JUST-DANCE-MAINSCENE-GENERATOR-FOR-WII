@@ -1,5 +1,5 @@
 ## All rights of this file goes to Worte, the creator of the file. All credits goes to Ubisoft
-## Entertainment SA, this file is UNALLOWED to product by your name, without a premission. The output of
+## Entertainment SA, this file is UNALLOWED to product under your name, without a premission. The output of
 ## this file must be CREDITED to the owner of this file, Worte. By using this file you accept the ToS 
 ## ahead.
 
