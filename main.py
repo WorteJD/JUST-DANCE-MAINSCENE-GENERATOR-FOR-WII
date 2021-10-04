@@ -13,8 +13,8 @@ input_musictrack = json.loads(open('input/input_musictrack.tpl.ckd').read())
 dtape = json.loads(open('input/input_tml_dance.dtape.ckd').read())
 ktape = json.loads(open('input/input_tml_dance.ktape.ckd').read())
 songdesc = json.loads(open('input/songdesc.tpl.ckd').read())
-CodeName = songdesc['COMPONENTS'][0]['MapName']
-CoachCount = songdesc['COMPONENTS'][0]['NumCoach']
+CodeName = settings['MapName']
+CoachCount = settings['NumCoach']
 output = settings['output']
 version = settings['JD']
 try:                  
