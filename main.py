@@ -9,14 +9,9 @@ print('WII MAIN SCENE GENERATOR BY WORTE\n\nAll rights of this file goes to Wort
 
 ## INPUT ##
 settings = json.loads(open('settings.json').read())
-input_musictrack = json.loads(open('input/input_musictrack.tpl.ckd').read())
-dtape = json.loads(open('input/input_tml_dance.dtape.ckd').read())
-ktape = json.loads(open('input/input_tml_dance.ktape.ckd').read())
-songdesc = json.loads(open('input/songdesc.tpl.ckd').read())
 CodeName = settings['MapName']
 CoachCount = settings['NumCoach']
 output = settings['output']
-version = settings['JD']
 try:                  
     os.mkdir(output)
 except:
