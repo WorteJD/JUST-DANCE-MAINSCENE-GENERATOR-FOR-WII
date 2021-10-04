@@ -3,12 +3,15 @@
 ## this file must be CREDITED to the owner of this file, Worte. By using this file you accept the ToS 
 ## ahead.
 
-import os, binascii, json, struct, zlib
+import os, binascii, json
 
 print('WII MAIN SCENE GENERATOR BY WORTE\n\nAll rights of this file goes to Worte, the creator of the file. All credits goes to Ubisoft Entertainment SA, this file is UNALLOWED to product by your name, without a premission. The output of this file must be CREDITED to the owner of this file, Worte. By using this file you accept the ToS ahead.\n')
 
 ## INPUT ##
-settings = json.loads(open('settings.json').read())
+try:
+    settings = json.loads(open('settings.json').read())
+except JSONDecodeError:
+    print('Please edit the settings!')
 CodeName = settings['MapName']
 CoachCount = settings['NumCoach']
 output = settings['output']
