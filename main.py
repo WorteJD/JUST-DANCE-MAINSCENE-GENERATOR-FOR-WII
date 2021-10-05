@@ -10,7 +10,7 @@ print('WII MAIN SCENE GENERATOR BY WORTE\n\nAll rights of this file goes to Wort
 ## INPUT ##
 try:
     settings = json.loads(open('settings.json').read())
-except JSONDecodeError:
+except json.JSONDecodeError:
     print('Please edit the settings!')
 CodeName = settings['MapName']
 CoachCount = settings['NumCoach']
